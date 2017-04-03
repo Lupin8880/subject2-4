@@ -1,0 +1,2 @@
+module PinstagramHelper
+end
