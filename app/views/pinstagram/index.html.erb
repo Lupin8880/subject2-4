@@ -1,6 +1,24 @@
-<section class="main-header">
-  <p class="flash"><%= notice %><%= alert %></p>
-</section>
-
-<h1>Pinstagram#index</h1>
-<p>Find me in app/views/pinstagram/index.html.erb</p>
+<html lang="ja">
+  <head>
+      <meta charset="UTF-8">
+      <title>Pinstagram</title>
+      <link rel="stylesheet" href="normalize.css">
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li><a href="#">Top</a></li>
+        <li><a href="#">Picture</a></li>
+      </ul>
+    </header>
+    <section class="main-header">
+      <p class="flash"><%= notice %><%= alert %></p>
+      <img src="<%= asset_path "Top.jpg" %>">
+    </section>
+    <footer>
+      <p>運営会社　インサイトマーケティング観測所</p>
+      <p>© 2017 Copyright Insight Marketing Observatory</p>
+    </footer>
+  </body>
+</html>
